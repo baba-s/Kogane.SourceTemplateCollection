@@ -1,6 +1,7 @@
 ﻿#if UNITY_EDITOR
 
 using System;
+using System.Collections.Generic;
 using JetBrains.Annotations;
 
 // ReSharper disable IdentifierTypo
@@ -28,6 +29,14 @@ namespace Kogane
         public static void logerr( this object self )
         {
             /*$ UnityEngine.Debug.LogError( self ); */
+        }
+
+        [SourceTemplate]
+        [Macro( Target = "separator" )]
+        [Macro( Target = "variable" )]
+        public static void join( this IEnumerable<string> self )
+        {
+            /*$ var $variable$ = string.Join( "$separator$", self ); */
         }
     }
 }
