@@ -4,4 +4,4 @@ JetBrains Rider のソーステンプレートのコレクション
 
 ## 使用例
 
-![icon459](https://user-images.githubusercontent.com/6134875/189464381-14b6eaf4-5d6f-4717-96b4-7d44eeebbcdd.gif)
+![icon460](https://user-images.githubusercontent.com/6134875/189464420-59301c16-9765-4ea3-ba6d-83861a1df3e3.gif)
